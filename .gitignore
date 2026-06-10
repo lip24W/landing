@@ -1,0 +1,40 @@
+# Dependencies
+frontend/node_modules/
+backend/vendor/
+
+# Environment
+backend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Database
+backend/database/*.sqlite
+backend/database/*.sqlite-journal
+
+# Laravel storage (runtime files)
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/storage/app/public/
+
+# Build output
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Thumbnails
+.thumbnail
+
+# Old repo clone
+landing/
